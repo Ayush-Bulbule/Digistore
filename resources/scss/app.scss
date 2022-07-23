@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+@import "./variables";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+//Utilty
+* {
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+section {
+  min-height: 75vh;
+}
+
+// Navbar
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.nav-cart {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: black !important;
+}
+
+//Menu
+.menu-container {
+  background-color: $primary !important;
+}
+
+.menu-categories li a {
+  color: #fafafa !important;
+  &:hover {
+    color: rgba(255, 255, 255, 0.7) !important;
+  }
+}
+
+//login
+.login-container {
+  min-height: 75vh;
+  background-color: $secondary;
+}
+.form-card {
+  padding: 1.5rem 2rem;
+  background-color: $pure;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  font-size: 0.9rem;
+}
+.form-label {
+  font-weight: 600;
+}
+
+//Cart
+
+.card-text {
+  font-size: 0.7rem !important;
+}
+.card-img-top {
+  max-height: 20rem !important;
+  max-height: 20rem !important;
+  display: flex;
+}
+.card-img-top img {
+}
+//noty
+.noty_theme__mint {
+  border-radius: 10px !important;
+  padding-left: 8px !important;
+}
+
+.container-empty p {
+  font-size: 0.9rem !important;
+  color: $dark;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-empty img {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-order {
+  outline: none;
+  border: 2px solid $primary;
+  color: $primary;
+  border-radius: 20px;
+  padding: 8px 22px;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: $smooth;
+
+  &:hover {
+    border-radius: 8px;
+    color: $pure;
+    background-color: $primary;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+.checkout-box {
+  width: 20rem;
+  margin-left: auto;
+  margin-right: 2rem;
+}
+
+section {
+  background-color: $secondary;
+}
+.table {
+  background-color: $pure;
+}
+
+section.status {
+  min-height: 85vh;
+}
+
+.status-box {
+  position: relative;
+  padding: 30px 0 60px 0;
+}
+
+.status-box ul {
+  margin-left: 80px;
+  list-style: none !important;
+}
+.status_line {
+  position: relative;
+}
+
+.status_line span::after {
+  content: "";
+  position: absolute;
+  // top: 50%;
+  transform: translateY(10px);
+  left: -10px;
+  border-radius: 10px;
+  background: $dark;
+  width: 10px;
+  height: 10px;
+  box-shadow: 0 0 1px 10x $secondary;
+}
+
+//icons8
+
+.status_line span::before {
+  position: absolute;
+  left: -90px;
+  top: -20%;
+  // transform: translateY(-50%);
+  font-family: "Line Awesome Free";
+  font-size: 46px;
+  font-weight: 600;
+}
+
+.status_line::marker {
+  display: none;
+}
+.status_line:nth-child(1) span::before {
+  content: "\f46c";
+}
+.status_line:nth-child(2) span::before {
+  content: "\f560";
+}
+.status_line:nth-child(3) span::before {
+  content: "\f021";
+}
+.status_line:nth-child(4) span::before {
+  content: "\f0d1";
+}
+.status_line:nth-child(5) span::before {
+  content: "\f582";
+}
+
+.status_line::before {
+  content: "";
+  top: 0;
+  position: absolute;
+  width: 2px;
+  height: 80%;
+  margin: 30px 0;
+  left: -5px;
+  background-color: $dark;
+}
+
+#last-line::before {
+  background-color: $secondary;
+}
+.status-box ul:nth-child(4)::before {
+  background-color: $secondary;
+}
+
+.step-completed {
+  color: #c0c0c0;
+}
+.step-completed::before {
+  background-color: #c0c0c0;
+}
+.step-completed span::after {
+  background-color: #c0c0c0;
+}
+.current {
+  color: $primary !important;
+}
+.current span::after {
+  background-color: $primary !important;
+}
+
+.status_line small {
+  font-size: 14px;
+  float: right;
+  color: #000000;
+  margin-top: 8px;
+}
+
+.table-image {
+  min-width: 8rem;
+  max-width: 12rem;
+}

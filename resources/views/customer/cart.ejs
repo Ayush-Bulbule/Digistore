@@ -1,0 +1,59 @@
+<section id="cart">
+  <%if(session.cart){%>
+    <div class="container mt-5">
+      <h1>Your Cart</h1>
+      <div class="product-container">
+
+        <% for(let product of Object.values(session.cart.items)){ %>
+          <div class="card cart-item m-3 d-flex flex-row align-items-center">
+            <img src="/uploads/<%= product.item.image %>" class="card-img-top" alt="..." style="width:10rem">
+            <div class="card-body">
+              <h5 class="card-title">
+                <%= product.item.name %>
+              </h5>
+              <p class="card-text">
+                <%= product.item.description %>
+              </p>
+            </div>
+            <div class="card-body" style="width:10rem">
+              <h5 class="card-title">
+                <%=product.qty%> pcs
+              </h5>
+            </div>
+            <div class="card-body" style="width:10rem">
+              <h5 class="card-title">$ <%=product.item.price*product.qty%>
+              </h5>
+            </div>
+          </div>
+          <%}%>
+      </div>
+
+      <!-- checkout -->
+      <div class="checkout-box">
+        <% if(user){%>
+          <form action="/orders" method="post">
+            <div class="mb-3">
+              <input name="phone" type="text" class="form-control" id="phoneinput" aria-describedby="emailHelp"
+                placeholder="Phone Number">
+            </div>
+            <div class="mb-3">
+              <input name="address" type="text" class="form-control" id="addressinput" aria-describedby="emailHelp"
+                placeholder="Address">
+            </div>
+            <button type="submit" class="btn-order mt-3 ms-auto">Check Out Order</button>
+          </form>
+          <%}else{ %>
+            <a href="/login" class="btn-order mt-5 ms-auto">Login to Continue</a>
+            <%}%>
+      </div>
+      <%}else{ %>
+        <div class="container-empty text-center d-flex flex-column py-4">
+          <h3>Your Cart is Empty 🙁</h3>
+          <p>You probably haven't add items to cart. Add items first.</p>
+          <img src="/img/cartempty.png">
+          <div>
+            <a href="/" class="btn-primary btn rounded">Go Back</a>
+          </div>
+        </div>
+        <%}%>
+</section>

@@ -1,0 +1,265 @@
+[{
+  "_id": {
+    "$oid": "60c88bc84fab790a30cecfc4"
+  },
+  "name": "Realme Narzo 30s",
+  "image": "uimage-1623758541233.jpg",
+  "description": "Realme Narzo 30s",
+  "category": "smartphone",
+  "price": 205,
+  "rating": "4.5",
+  "stock": 100,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c890067ae08d4bb4781060"
+  },
+  "name": "Apple iPhone 12 mini",
+  "image": "uimage-1623758382347.jpg",
+  "description": "Apple iPhone 12 Blue Varient High Speed 5g",
+  "category": "smartphone",
+  "price": 1100,
+  "rating": "4.7",
+  "stock": 200,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c8904a020450428ce3d1e5"
+  },
+  "name": "Apple iPhone 12 ",
+  "image": "image-1623756874696.png",
+  "description": "Apple iPhone 12 Silver Varient High Speed 5g\t",
+  "category": "smartphone",
+  "price": 1200,
+  "rating": "4.7",
+  "stock": 200,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c89832c09bc029e0107fc9"
+  },
+  "name": "Mi 11X 5G a",
+  "image": "image-1623758898657.png",
+  "description": "Mi 11X 5G Cosmic Black 6GB RAM 128GB ROM | SD 870 | DisplayMate A+ rated E4 AMOLED | Upto 3000 Additional",
+  "category": "smartphone",
+  "price": 400,
+  "rating": "5",
+  "stock": 200,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c899b3c09bc029e0107fca"
+  },
+  "name": "Mi 4X",
+  "image": "image-1623759283939.jpeg",
+  "description": "Mi 4X 125.7 cm (50 inch) Ultra HD (4K) LED Smart Android TV",
+  "category": "led",
+  "price": 200,
+  "rating": "4.5",
+  "stock": 25,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c89a08c09bc029e0107fcb"
+  },
+  "name": "Nokia 139",
+  "image": "image-1623759368117.jpeg",
+  "description": "Nokia 139 cm (55 inch) Ultra HD (4K) LED Android TV",
+  "category": "led",
+  "price": 280,
+  "rating": "4.8",
+  "stock": 40,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c89a75c09bc029e0107fcc"
+  },
+  "name": "boAt Rockerz 450 Bluetooth Headset",
+  "image": "image-1623759477460.jpg",
+  "description": "boAt Rockerz 450 Bluetooth Headset High Connectivity Best Sound ",
+  "category": "assesories",
+  "price": 21,
+  "rating": "4,3",
+  "stock": 150,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c89b79c09bc029e0107fcd"
+  },
+  "name": "boAt Airdopes 131",
+  "image": "image-1623759737296.jpg",
+  "description": "boAt Airdopes 131 Bluetooth Headset Trully Wireless",
+  "category": "assesories",
+  "price": 30,
+  "rating": "4.7",
+  "stock": 200,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c89c16ae90b63034cdc33b"
+  },
+  "name": "ASUS VivoBook 15 Core i3 10th Gen",
+  "image": "image-1623759894962.jpeg",
+  "description": "ASUS VivoBook 15 Core i3 10th Gen - (8 GB/1 TB HDD/Windows 10 Home) X515JA-EJ322TS Thin and Light Laptop  (15.6 inch, Transparent Silver, 1.80 kg, With MS Office)",
+  "category": "laptop",
+  "price": 550,
+  "rating": "3.9",
+  "stock": 45,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c89eb3ae90b63034cdc33c"
+  },
+  "name": "Panasonic 6 Kg Washing Machine",
+  "image": "image-1623760563717.jpg",
+  "description": "Panasonic 6 Kg 5 Star Fully-Automatic Top Loading Washing Machine (NA-F60LF1HRB, Grey)",
+  "category": "electronics",
+  "price": 300,
+  "rating": "4.5",
+  "stock": 199,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c8a0d4ae90b63034cdc33d"
+  },
+  "name": "Mivi Play Bluetooth Speaker",
+  "image": "image-1623761108841.jpg",
+  "description": "Mivi Play Bluetooth Speaker with 12 Hours Playtime. Wireless Speaker Made in India with Exceptional Sound Quality, Portable Speaker",
+  "category": "Smartphone",
+  "price": 15,
+  "rating": "4.8",
+  "stock": 200,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c8a176ae90b63034cdc33e"
+  },
+  "name": "New Apple Watch Series 6",
+  "image": "image-1623761270057.jfif",
+  "description": "New Apple Watch Series 6 (GPS + Cellular, 44mm) - Space Grey Aluminium Case with Black Sport Band",
+  "category": "assesories",
+  "price": 700,
+  "rating": "4.8",
+  "stock": 80,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c8a1b3ae90b63034cdc33f"
+  },
+  "name": "Samsung Galaxy Watch Active ",
+  "image": "image-1623761331818.jpg",
+  "description": "Samsung Galaxy Watch Active 2 (Bluetooth, 44 mm) - Black, Aluminium Dial, Silicon Straps",
+  "category": "assesories",
+  "price": 400,
+  "rating": "4.8",
+  "stock": 100,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c8a24dae90b63034cdc340"
+  },
+  "name": "Bosch 8 kg Washing Machine",
+  "image": "image-1623761485390.jpeg",
+  "description": "Bosch 8 kg 5 Star Touch Control Fully Automatic Front Load with Heater (WAJ2426AIN, White)",
+  "category": "electronics",
+  "price": 400,
+  "rating": "5",
+  "stock": 134,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c8a2a2ae90b63034cdc341"
+  },
+  "name": "Samsung Single Door Refrigerator ",
+  "image": "image-1623761570538.webp",
+  "description": "Samsung 192 L 2 Star Direct Cool Single Door Refrigerator (RR19A241BGS/NL, Grey Silver)",
+  "category": "electronics",
+  "price": 450,
+  "rating": "4.6",
+  "stock": 120,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c8a2ecae90b63034cdc342"
+  },
+  "name": "Lenovo Tab M1",
+  "image": "image-1623761644388.jpg",
+  "description": "Lenovo Tab M10 FHD Plus (2nd Gen) (10.3 inch, 4 GB, 128 GB, Wi-Fi+ LTE) with Active Pen",
+  "category": "tablet",
+  "price": 208,
+  "rating": "4.3",
+  "stock": 100,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c8a347ae90b63034cdc343"
+  },
+  "name": "Lenovo Tab M8",
+  "image": "image-1623761735880.webp",
+  "description": "Lenovo Tab M8 HD Tablet (8-inch, 2GB, 32GB, Wi-Fi Only), Platinum Grey",
+  "category": "tablet",
+  "price": 220,
+  "rating": "4.6",
+  "stock": 200,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c8a3a9ae90b63034cdc344"
+  },
+  "name": "Apple iPad A12",
+  "image": "image-1623761833046.png",
+  "description": "2020 Apple iPad with A12 Bionic chip (10.2-inch, Wi-Fi, 32GB) - Space Grey (8th Generation)",
+  "category": "Smartphone",
+  "price": 1100,
+  "rating": "4.8",
+  "stock": 220,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c8a427ae90b63034cdc345"
+  },
+  "name": "ASUS Ryzen 3 Dual Core",
+  "image": "image-1623761959190.jpeg",
+  "description": "ASUS Ryzen 3 Dual Core (4 GB DDR4/1 TB/Windows 10 Home/23.8 Inch Screen/M241DAK-BA158T)  (Black, 409 mm x 540 mm x 165 mm, 5.4 kg)",
+  "category": "pc's",
+  "price": 450,
+  "rating": "4.7",
+  "stock": 60,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c8a451ae90b63034cdc346"
+  },
+  "name": "HP All in One PC ",
+  "image": "image-1623762001261.jpeg",
+  "description": "HP All in One PC Ryzen 3 Dual Core (4 GB DDR4/1 TB/Windows 10 Home/21.5 Inch Screen/22-dd0201in) with MS Office  (Jet Black, 380.7 mm x 490.3 mm x 204.5 mm, 5.7 kg)",
+  "category": "pc's",
+  "price": 500,
+  "rating": "4.5",
+  "stock": 80,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c8a511ae90b63034cdc347"
+  },
+  "name": "HP 15s Core i3 10th Gen",
+  "image": "image-1623762193678.jpeg",
+  "description": "HP 15s Core i3 10th Gen - (8 GB/1 TB HDD/256 GB SSD/Windows 10 Home) 15s-du1064TU Laptop",
+  "category": "laptop",
+  "price": 800,
+  "rating": "4.5",
+  "stock": 120,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c8a59eae90b63034cdc348"
+  },
+  "name": "Redmi 9",
+  "image": "image-1623762334502.png",
+  "description": "Redmi 9 (Sky Blue, 4GB RAM, 64GB Storage)| 5000 mAh| 2.3GHz Mediatek Helio G35 Octa core Processor",
+  "category": "Smartphone",
+  "price": 300,
+  "rating": "4.6",
+  "stock": 180,
+  "__v": 0
+}]

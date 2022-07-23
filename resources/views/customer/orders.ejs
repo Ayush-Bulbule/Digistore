@@ -1,0 +1,57 @@
+<section>
+    <div class="container table-section py-4">
+        <h4>My Orders</h4>
+        <% if(messages.success){%>
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                <strong> <i class="bi bi-check-circle-fill"></i> </strong>
+                <%= messages.success%>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <%}if(messages.error){ %>
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    <strong> <i class="bi bi-x-circle-fill"></i> </strong>
+                    <%= messages.error%>
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+                <%}%>
+                    <div class="orders-box">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th class="border px-4 py-2 text-left">Order Id</th>
+                                    <th class="border px-4 py-2 text-left">Phone</th>
+                                    <th class="border px-4 py-2 text-left">Address</th>
+                                    <th class="border px-4 py-2 text-left">Placed at</th>
+                                </tr>
+                            </thead>
+                            <tbody id="orderTableBody">
+                                <% if(orders.length) {%>
+                            <tbody>
+                                <% orders.forEach((order)=>{%>
+                                    <tr>
+                                        <td class="border px-4 py-2 text-left fw-bold">
+                                            <a class="link" href="/customers/orders/<%= order._id%>">
+                                                <%= order._id%>
+                                            </a>
+                                        </td>
+                                        <td class="border px-4 py-2 text-left">
+                                            <%= order.phone%>
+                                        </td>
+                                        <td class="border px-4 py-2 text-left">
+                                            <%= order.address%>
+                                        </td>
+                                        <td class="border px-4 py-2 text-left">
+                                            <%= moment( order.createdAt).format('hh:mm A')%>
+                                        </td>
+                                    </tr>
+                                    <%})%>
+                            </tbody>
+                            <%}else{%>
+                                <tr>No orders found</tr>
+
+                                <%}%>
+                                    </tbody>
+                        </table>
+                    </div>
+    </div>
+</section>
